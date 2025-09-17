@@ -4,10 +4,6 @@
 
 ## A Modern Portfolio Template for Developers!
 
-<h2 align="center">
-  <img src="assets/devfolio.gif" alt="Devfolio" />
-</h2>
-
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations + Hover Effects\
