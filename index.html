@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Jessie Servis | Developer</title>
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://jessieservis.com/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Jessie Servis | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Jessie Servis' Portfolio" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122228201-4');
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Jessie Servis</span>
+          <br />
+          I'm a Software Developer!
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hi, I'm Jessica (Jessie) Servis. I'm a senior at Central Michigan
+              University pursuing a Bachelor of Science in Computer Science with
+              a minor in Management. I am actively contributing as a Mediated
+              Services Student Technician, installing and maintaining technology
+              on campus while troubleshooting issues for staff. During my time
+              at Central, I have been recognized for academic excellence with
+              multiple honors, including the President's List and the Harold W.
+              and Dorothy V. Zeoli Award in Computer Science.
+            </p>
+            <p class="about-wrapper__info-text">
+              I recently completed my second Full Stack Software Development
+              Internship at Auto-Owners Insurance, focusing on Duck Creek XML,
+              React.js, and TypeScript in a CI/CD PROD environment. I
+              collaborated with cross-functional teams to develop and debug over
+              100 features for a modernization project.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am excited to apply my technical skills and collaborative
+              experiences to future full-time software engineering/development
+              opportunities post-graduation in May 2026.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                My Cows: Road Trip Wrapped
+              </h3>
+              <p class="project-wrapper__text-info">
+                For my My Cows: Roadtrip Wrapped, I worked with two other
+                students to create a mobile-friendly web app in under 24 hours
+                for Spartahack X! We used Next.js for the frontend and Convex
+                for backend and database management. The app modernizes a
+                classic road trip game, allowing players to track cows, hazards,
+                and game events digitally instead of with paper.
+              </p>
+              <p class="project-wrapper__text-info">
+                Through this project, I gained hands-on experience connecting
+                frontend and backend systems, managing real-time updates, and
+                troubleshooting feature behavior. I also strengthened my skills
+                in version control, responsive design with Tailwind CSS, and
+                prioritizing development tasks to deliver a user-focused,
+                interactive experience. I personally drew all of the art used in
+                this project. This project highlights my ability to combine
+                modern web technologies with thoughtful design to create
+                engaging applications.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://sparta-hack-5whf.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/edombelayneh/My-Cows-Roadtrip-Wrapped"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://sparta-hack-5whf.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/MyCowsPortfolio.png"
+                    class="img-fluid"
+                    alt="My Cows App Screen Image"
+                    width="527"
+                    height="799"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Eazy Peazy Meal Planner
+              </h3>
+              <p class="project-wrapper__text-info">
+                For this project, with a team of three classmates, I developed a
+                meal planning application using Java and JavaFX. The app allows
+                users to select meals from predefined categories and add their
+                own recipes, facilitating organized meal planning. I structured
+                the project with separate text files for different meal
+                categories, such as desserts, entrees, and sides, to maintain
+                clarity and ease of management.
+              </p>
+              <p class="project-wrapper__text-info">
+                Through this project, I enhanced my skills in Java programming,
+                particularly in file handling and user input processing. I also
+                learned the importance of modular design and clear
+                documentation, which contributed to the maintainability and
+                scalability of the application. This experience reinforced my
+                ability to create user-friendly applications that address
+                practical needs.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://youtu.be/BYojDgtf22U"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Demo</a
+                >
+                <a
+                  href="https://github.com/DevSeth-Design/EazyPeazy/tree/vscode-revamp"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://youtu.be/BYojDgtf22U"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/EazyPeazyPreview.png"
+                    class="img-fluid"
+                    alt="Eazy Peazy App Screen Image"
+                    width="1419"
+                    height="787"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">I'd love to talk to you more!</p>
+          <a
+            href="mailto:jessie.servis@gmail.com"
+            class="cta-btn cta-btn--resume"
+            >Contact me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/jessica-servis/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/jessieservis"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
